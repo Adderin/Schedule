@@ -1,0 +1,26 @@
+Technical task
+Schedule 1.1.2
+
+Purpose: with the help of the program, you can draw up a round-the-clock department(8-10 people) schedule for a month.
+Features:
+a) the program should take into account the individual wishes and experience of employees (Junior, Middle, Senior)
+b) an employee with Junior status cannot work alone, better paired with senior than with middle
+c) the received schedule can be edited manually
+d) Minumum of 1 person works every shift
+e) at least 2 people work during the day on working week (exceptions are possible for 1 person when on vacation)
+f) on the weekend 1 person works, even during the day, exceptions are possible
+g) the employee works 1 shift per day and a maximum of 5 days in a row
+h) the employee works 5 shifts per week, 20-23 shifts per month
+
+Data for manual entry:
+a) shift schedule
+I. Change (night)
+II. Shift (day)
+III. Change (evening)
+b) a team of 8-10 people. The program at the beginning suggests choosing the names of employees and their experience status.
+c) individual wishes of each employee (night, day, evening). By default, all three must be set.
+d) month and year. The program must understand the calendar
+d) exposing the experience of employees, such as: Senior, Middle, Junior.
+
+What should happen:
+Given the individual wishes and status of the experience of employees, display a monthly and daily schedule.
